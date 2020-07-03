@@ -1,0 +1,48 @@
+.teach__course-edit {
+  &__authors {
+    &-list {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-start;
+      align-items: center;
+
+      list-style: none;
+
+      &__author:not(:first-of-type) {
+        padding-top: .75rem;
+      }
+
+      &__author:not(:last-of-type) {
+        padding-bottom: .75rem;
+        border-bottom: 1px solid rgba(0,0,0,.25);
+      }
+
+      &__author {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        font-size: 18px;
+        line-height: 32px;
+
+        & > h4 {
+
+          display: inline-block;
+          vertical-align: middle;
+          text-align: center;
+          font-size: 16px;
+
+          margin-bottom: 0;
+          line-height: inherit;
+        }
+
+        & > span {
+          line-height: inherit;
+          vertical-align: middle;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

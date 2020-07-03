@@ -1,0 +1,11 @@
+.video-section-wrapper {
+  width: 100%;
+
+  & > * {
+    display: block;
+    margin: 0 auto;
+
+    width: 560px;
+    height: 315px;
+  }
+}

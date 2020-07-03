@@ -1,0 +1,15 @@
+.additional-card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1rem;
+
+  &__counters {
+    display: flex;
+
+    & > div:not(:last-of-type) {
+      margin-right: .375rem;
+    }
+  }
+}

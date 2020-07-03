@@ -1,0 +1,40 @@
+.register-form {
+  max-width: 400px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  &__logo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    &-text {
+      display: inline-block;
+
+      font-size: 4rem !important;
+      margin-bottom: 0 !important;
+      line-height: 1.5 !important;
+    }
+  }
+
+  &__additional {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__login {
+      width: 100%;
+      & > a {
+        margin-left: .375rem;
+      }
+    }
+  }
+}
+

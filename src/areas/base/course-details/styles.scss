@@ -1,0 +1,70 @@
+.page-content-heading {
+  width: 100%;
+  min-height: 200px;
+  background: #cecece;
+  margin-bottom: 1rem;
+
+  &__flex {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 200px;
+  }
+}
+
+.additional-course-info {
+  font-size: 14px;
+
+  &__time {
+    & > span:last-of-type {
+      margin-left: .375rem;
+    }
+  }
+}
+
+.custom-green-btn {
+  background: #54ad54;
+  border-color: #54ad54;
+
+  &:focus {
+    background: #75bd75;
+    border-color: #75bd75;
+  }
+  //1890ff rgb(24, 144, 255)
+  //40a9ff rgb(64, 169, 255)
+
+  //54ad54 rgb(84, 173, 84)
+  //7cc654 rgb(124, 198, 84)
+  //428a42
+  &:hover {
+    background: #75bd75;
+    border-color: #75bd75;
+  }
+
+  &:active {
+    background: #4b9b4b;
+    border-color: #4b9b4b;
+  }
+
+  &::selection {
+    background: #4b9b4b;
+  }
+}
+
+.feedbacks-carousel .slick-slide {
+  height: 160px;
+  line-height: 160px;
+}
+
+.feedbacks-carousel {
+  & > .slick-arrow {
+    background: #000;
+  }
+
+  & > .slick-dots {
+    & > li > button {
+      background: #000 !important;
+    }
+  }
+}

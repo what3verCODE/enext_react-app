@@ -1,0 +1,54 @@
+.dashboard-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dashboard-left {
+  min-width: 20%;
+}
+
+.dashboard-sidebar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  background: red;
+
+
+  height: 100vh;
+}
+
+.dashboard-sidebar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background: green;
+  padding: .5rem 0;
+}
+
+
+.dashboard-right {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 200vh;
+  width: 80%;
+}
+
+.dashboard-nav {
+  position: sticky;
+  top: 0;
+  padding: .5rem 0;
+  background: #000;
+}
+
+.dashboard-content {
+  margin: 1.5rem .75rem;
+  padding: .5rem;
+  background: yellowgreen;
+}
+
+

@@ -1,0 +1,38 @@
+.custom-form-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__wrapper {
+    margin-top: .375rem;
+    padding: 8px 16px 12px 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+
+  &__actions {
+    display: flex;
+
+    & > * {
+      display: inline-block;
+    }
+  }
+
+  &__lesson {
+    flex-basis: 90%;
+  }
+
+  &__module {
+    flex-basis: 92.5%;
+  }
+}
+
+.custom-form-item > .ant-form-item > .ant-form-item-label {
+  & > .ant-form-item-required:before {
+    content: "";
+  }
+
+  & .ant-form-item-required:after {
+    content: "";
+  }
+}

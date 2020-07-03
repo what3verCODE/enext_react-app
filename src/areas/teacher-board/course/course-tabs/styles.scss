@@ -1,0 +1,99 @@
+.teach__modules-column {
+  min-width: 400px;
+  //flex: 0 0 33%;
+
+  &__card-grid {
+    width: 100%;
+    min-height: 64px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .teach__modules-column {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .teach__modules-column {
+    flex: 0 0 100%;
+  }
+}
+
+.teach__module-title {
+  & > div > div > div {
+    font-size: 18px;
+  }
+}
+
+.teach__lesson-grid-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__header {
+    font-size: 20px;
+  }
+
+  &__title {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  &__icon {
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  &__menu-item {
+    & > span {
+      font-size: 14px;
+      & > a {
+        font-size: 14px;
+        color: rgba(0,0,0,.65);
+      }
+
+      & > svg {
+        width: 1.2em;
+        height: 1.2em;
+      }
+    }
+  }
+}
+
+.teach__course-frame {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .teach__course-frame {
+    margin: auto;
+  }
+}
+
+.teach__course-row {
+  flex-flow: row nowrap;
+}
+
+@media (max-width: 767px) {
+  .teach__course-row {
+    flex-flow: column;
+    align-items: center;
+  }
+}
+
+.teach__course-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

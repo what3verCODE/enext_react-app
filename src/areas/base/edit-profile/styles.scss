@@ -1,0 +1,76 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  margin: 1rem 0;
+}
+
+.profile-sidebar {
+  flex-basis: 24%;
+  position: sticky;
+  top: calc(8vh + 1rem);
+
+  &__link {
+    display: block;
+    padding: .75rem 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: black;
+    }
+  }
+}
+
+.profile-content {
+  flex-basis: 76%;
+  border-radius: .5em;
+  box-shadow: 0px 4px 31px -12px rgba(0,0,0,0.35);
+  padding: 1.75rem;
+
+  background: #fefefe;
+
+
+  &__item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-bottom: 1.75rem;
+
+    &-title {
+      flex-basis: 40%;
+    }
+
+    &-content {
+      flex-basis: 60%;
+    }
+  }
+
+  &__submit {
+    &-btn {
+      float: right;
+    }
+  }
+}
+
+.profile-content {
+  &__avatar {
+    display: flex;
+    justify-content: flex-start;
+
+    & > img {
+      width: 150px;
+    }
+    & > svg {
+      width: 150px;
+    }
+
+    &-buttons {
+      margin-left: 2.25rem;
+    }
+  }
+
+
+}

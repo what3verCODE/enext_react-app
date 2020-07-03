@@ -1,0 +1,31 @@
+.page-pic {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("https://thumbs.dreamstime.com/b/creative-education-background-educational-sketch-white-brick-copybooks-knowledge-concept-d-rendering-162705951.jpg") center no-repeat;
+  background-size: cover;
+
+  & > .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 12rem;
+    margin: 0;
+  }
+
+  & > .page-slogan {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-40%, -60%);
+    align-self: flex-start;
+
+    & > .p1 {
+      font-size: 1.25rem;
+      margin: 0;
+    }
+  }
+}

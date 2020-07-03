@@ -1,0 +1,27 @@
+{
+  "presets": [
+    [
+      "@babel/preset-typescript",
+      {
+        "isTSX": true,
+        "allExtensions": true
+      }
+    ],
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "useBuiltIns": "entry",
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    "@babel/plugin-transform-runtime"
+  ]
+}
