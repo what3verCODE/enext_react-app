@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/axios": "^0.14.0",
     "antd": "^4.3.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "css-loader": "^3.5.3",
     "inline-source-map": "^0.6.2",
     "react": "^16.13.1",
